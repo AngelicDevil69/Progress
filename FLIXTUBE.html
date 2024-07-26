@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Badass Button</title>
+<style>
+  .badass-button {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #ff5733;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin: 10px;
+  }
+
+  .badass-button:hover {
+    background-color: #e63946;
+    transform: scale(1.1);
+  }
+
+  section {
+    padding: 50px;
+    margin-top: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+
+  #section1 { background-color: #f1c40f; }
+  #section2 { background-color: #2ecc71; }
+  #section3 { background-color: #3498db; }
+  #video-section { background-color: #e0e0e0; }
+</style>
+</head>
+<body>
+
+<!-- Navigation Buttons -->
+<button class="badass-button" onclick="document.getElementById('section1').scrollIntoView({ behavior: 'smooth' });">Best Way to Make Games</button>
+<button class="badass-button" onclick="document.getElementById('section2').scrollIntoView({ behavior: 'smooth' });">What is GamerCyborg?</button>
+<button class="badass-button" onclick="document.getElementById('section3').scrollIntoView({ behavior: 'smooth' });">What is Roblox?</button>
+<button class="badass-button" onclick="document.getElementById('video-section').scrollIntoView({ behavior: 'smooth' });">Videos</button>
+
+<!-- Sections -->
+<section id="section1">
+  <h2>Best Way to Make Games</h2>
+  <p>The best way to make games, especially for beginners, is to use powerful tools and supportive communities like Roblox Studio and GamerCyborg. Roblox Studio is a feature-rich platform with a user-friendly interface, a vast library of assets, and Lua scripting capabilities. GamerCyborg is a group dedicated to helping newbies by offering tutorials, pre-made scripts, and a supportive community. Combining Roblox Studio's tools with GamerCyborg's resources helps aspiring developers learn, create, and succeed in game development.</p>
+</section>
+
+<section id="section2">
+  <h2>What is GamerCyborg?</h2>
+  <p>GamerCyborg is a supportive group on Roblox that helps new developers create games. They provide tutorials, scripts, and assets to streamline learning. GamerCyborg fosters a collaborative environment where members share knowledge and receive feedback. They also host events like game jams to encourage practical experience. With GamerCyborg, newbies can quickly learn and develop their skills, contributing to the broader Roblox community.</p>
+</section>
+
+<section id="section3">
+  <h2>What is Roblox?</h2>
+  <p>Roblox is a platform where users can play, create games, and chat online. It combines gaming, social media, and commerce. Users can play a variety of games and even earn money by creating popular games. Roblox Studio is the tool for creating games, offering an immersive creative engine. Whether playing or creating, Roblox offers a rich and interactive experience for all ages.</p>
+</section>
+
+<!-- Video Section -->
+<section id="video-section">
+  <h2>Videos</h2>
+  <h3>Progress</h3>
+  <video width="600" controls>
+    <source src="C:\Users\Lenovo\Videos\Captures\Untitled Game - Roblox Studio 2024-07-23 15-44-50.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+ </section>
+</body>
+</html>
